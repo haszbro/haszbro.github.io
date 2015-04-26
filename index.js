@@ -1,6 +1,7 @@
 window.makeNumber = function () {
 	console.log('poop');
-	return Math.random(1,10);
+	return Math.floor((Math.random() * 10) + 1);
+    document.getElementById("demo").innerHTML = x;
 };
 
 window.randomColour = function () {
