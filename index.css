@@ -1,0 +1,36 @@
+body {
+	background-color: #EEE;
+}
+
+#home {
+	float: left;
+	padding-right: 20px;
+}
+
+#info {
+	float: right;
+	padding-right: 340px
+}
+
+#welcome {
+	color: magenta;
+	float: right;
+	padding-right: 400px;
+	padding-top: 50px;
+}
+
+#millietxt {
+	color: magenta;
+}
+
+#channeltxt {
+	color: magenta;
+}
+
+#channellink {
+	text-align: center;
+}
+
+#millielink {
+	text-align: center;
+}

@@ -3,37 +3,45 @@
 <html>
 <head>
 	<title>Haszbro's Website</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
 </head>
-<body bgcolor= "purple">
-	<b><center><p><font face='arial' color='yellow'>Welcome to Haszbro's website! </font></p></center></b>
+<body>
+<div id='header'>
+	<table>
+		<tr>
+		<td>
+			<div id='welcome'><b><font face='arial'>Welcome to Haszbro's website</font></b></div>
+			<div id='home'><a href='index.html' ><img width='90' src="homeimg.png"></a></div>
+			<div id='info'><a href="page2.html" ><img width='90' src="infoimg.png"></a></div>
+		</td>
+		</tr>
+	</table>
+</div>
+<div id='middle'>
 	<table width='90' align='left' cellpadding='0' cellspacing='0'>
 	<tr>
 	<td>
-	<img src='logo.png' style='width:200px';height:'90px'>
+		<img src='logo.png' style='width:200px';height:'90px'>
 	</tr>
 	</td>
 	</table>
 	<table width='90' align='right' cellpadding='0' cellspacing='0'>
 	<tr>
 	<td>
-	<img src='logo.png' style='width:200px';height:'90px'>
+		<img src='logo.png' style='width:200px';height:'90px'>
 	</tr>
 	</td>
 	</table>
-	<font color='lime' face='arial'><center>My channel<center></font>
-	<a color='lime' href="https://www.youtube.com/channel/UChS0hH-z_VkTSMWduM_12HQ">youtube.com/haszbro</a>
-<<<<<<< HEAD
-	<center><font color='lime' face= 'arial'>Check out Millie's channel too</font><br></center>
-	<a color='lime' href="https://www.youtube.com/channel/UCWR62QyAfxdnoqB3bwqU74g">youtube.com/migapanthis</a>
-=======
-	<center><font color='lime' face= 'arial'>Check out Millie's channel too<br></font></center>
-	<a color='lime' href="https://www.youtube.com/channel/UCWR62QyAfxdnoqB3bwqU74g">youtube.com/migapanthis<br><br></a>
->>>>>>> origin/master
+	<div id='channeltxt'><font face='arial'><center>My channel<center></font></div>
+	<div id='channellink'><a color='lime' href="https://www.youtube.com/channel/UChS0hH-z_VkTSMWduM_12HQ">youtube.com/haszbro</a></div>
+	<div id='millietxt'><center><font face= 'arial'>Check out Millie's channel too</font><br></center></div>
+	<div id='millielink'><a color='lime' href="https://www.youtube.com/channel/UCWR62QyAfxdnoqB3bwqU74g">youtube.com/migapanthis<br><br></a></div>
 	<script src='index.js'></script>
-	<button type="button"
+	<center><button type="button"
 	onclick="document.getElementById('demo').innerHTML = window.makeNumber()">Generate random number from 1 to 10</button>
 	<p id="demo"></p>
 	<button type="button"
-	onclick="window.randomColour()">Change background colour</button>
+	onclick="window.randomColour()">Change background colour</button><br><br></center>
+</div>
 </body>
 </html> 
