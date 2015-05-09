@@ -1,5 +1,6 @@
 body {
 	background-color: #EEE;
+    width: auto;
 }
 
 #home {
@@ -9,14 +10,18 @@ body {
 
 #info {
 	float: right;
-	padding-right: 340px
+	padding-right: 20px;
 }
 
 #welcome {
 	color: magenta;
 	float: right;
-	padding-right: 400px;
+	text-align: center;
 	padding-top: 50px;
+}
+
+#gifimg {
+    text-align: center;
 }
 
 #millietxt {
