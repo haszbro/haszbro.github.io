@@ -1,3 +1,6 @@
+ver name = prompt ('Waht is your name?'); 
+alert ('Welcome '+name);
+
 window.makeNumber = function () {
 	console.log('poop');
 	return Math.floor((Math.random() * 10) + 1);
