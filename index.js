@@ -1,5 +1,5 @@
-ver name = prompt ('Waht is your name?'); 
-alert ('Welcome '+name);
+var name = prompt ('What is your name?'); 
+alert ('Welcome '+name+' To AlexTheHaszards website!');
 
 window.makeNumber = function () {
 	console.log('poop');
